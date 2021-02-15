@@ -1,7 +1,7 @@
 <p align="center"><img src="https://i.imgur.com/92vWHUN.png" width="100"/>
 <h1 align="center">The Spark</h1>
 
-Organizational repo for w3dt The Spark.
+Welcome to the organizational repo for w3dt The Spark.
 
 ## Team
 
@@ -10,3 +10,5 @@ Organizational repo for w3dt The Spark.
 * [Irakli](https://github.com/Gozala)
 * [Mike](https://github.com/mgoelzer)
 * [Peter](https://github.com/ribasushi)
+
+See [OPERATIONS.md](https://github.com/protocol/the-spark/blob/main/OPERATIONS.md) for our day to day working arrangements.
