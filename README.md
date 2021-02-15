@@ -2,3 +2,11 @@
 <h1 align="center">The Spark</h1>
 
 Organizational repo for w3dt The Spark.
+
+## Team
+
+* [Alan](https://github.com/alanshaw)
+* [Hugo](https://github.com/hugomrdias)
+* [Irakli](https://github.com/Gozala)
+* [Mike](https://github.com/mgoelzer)
+* [Peter](https://github.com/ribasushi)
