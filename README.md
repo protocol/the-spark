@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.imgur.com/92vWHUN.png" width="100"/>
+<p align="center"><img src="https://raw.githubusercontent.com/protocol/the-spark/main/logo.png" width="100"/>
 <h1 align="center">The Spark</h1>
 
 Welcome to the organizational repo for w3dt The Spark.
