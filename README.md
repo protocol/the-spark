@@ -18,4 +18,9 @@ See [OPERATIONS.md](https://github.com/protocol/the-spark/blob/main/OPERATIONS.m
 We regularly demo our progress. Find the latest videos on Slate or YouTube:
 
 * https://slate.host/alanshaw/the-spark-demos
-* https://youtube.com/playlist?list=PLbEB6BmtaKuBpWDuKXQ34L8bAagxlsgE5
+
+Most w3dt demos will appear on the Tech Demos playlists:
+
+* [FIL Demos](https://youtube.com/playlist?list=PL_0VrY55uV1_NtdimsD2mncnL6__b1x6T)
+* [IPFS Demos](https://www.youtube.com/playlist?list=PLuhRWgmPaHtRRtDPxOcE9cR2yDqvqLdCr)
+* [PL Demos](https://youtube.com/playlist?list=PLhuBigpl7lqs6QcAuIvCJ9-SIa8G9yujJ)
