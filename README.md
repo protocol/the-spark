@@ -15,7 +15,7 @@ See [OPERATIONS.md](https://github.com/protocol/the-spark/blob/main/OPERATIONS.m
 
 ## Demo Videos
 
-We regularly demo our progress. Find the latest videos on Slate or YouTube:
+We regularly demo our progress. Find our latest videos on Slate:
 
 * https://slate.host/alanshaw/the-spark-demos
 
