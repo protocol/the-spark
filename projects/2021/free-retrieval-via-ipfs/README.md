@@ -28,28 +28,37 @@ Originally the code inspected the datastore used by graphsync for the data but i
 
 Instead, the code interacts with the `SectorManager` API to unseal the data in the same way as would happen when a regular retrieval happens. The unsealed data is copied into the free retrieval blockstore. It is extra work to unseal the data but if the "Fast Retrieval" option is enabled then it's essentially a straight forward copy.
 
-Coping the deal data to a separate blockstore was the fastest way of building a prototype. A hypothesis was that we could avoid the copy and [use the unsealed data](https://github.com/protocol/web3-dev-team/pull/52#issuecomment-783319835) and a [further suggestion for how to do that was made](https://github.com/alanshaw/lotus/pull/1#issuecomment-786787958) using a [Filestore](https://github.com/ipfs/go-filestore) and a fork of the [`go-car` library](https://github.com/ipld/go-car/pull/24). This looked promising and inroads were made towards it but ultimately time did not allow an implementation to materialize.
+Coping the deal data to a separate blockstore was the fastest way of building a prototype. A hypothesis was that we could avoid the copy and [use the unsealed data](https://github.com/protocol/web3-dev-team/pull/52#issuecomment-783319835) and a [further suggestion for how to do that was made](https://github.com/alanshaw/lotus/pull/1#issuecomment-786787958) using a [Filestore](https://github.com/ipfs/go-filestore) and a fork of the [`go-car` library](https://github.com/ipld/go-car/pull/24). This looked promising and inroads were made towards it but ultimately time constraints did not allow an implementation to materialize.
 
 It should be noted that avoiding the copy in this way would tie the free retrevial via IPFS capability to the "Fast Retrieval" option meaning that you'd only be able to expose deal data via IPFS if the "Fast Retrieval" option was enabled.
 
 ### Implementation Notes
 
-Listening for these events from `go-fil-markets` allow Lotus to enable/disable free retrieval via IPFS via a configuration option. It needs to be decided if this is something that _should_ be configurable of if free retrieval via IPFS should always be possible if the retrieval cost is free.
+Listening for these events from `go-fil-markets` allow Lotus to enable/disable free retrieval via IPFS via a configuration option. It needs to be decided if this is something that _should_ be configurable or if free retrieval via IPFS should always be possible if the retrieval cost is free.
+
+Miners could be incentivized to provide free retrieval via IPFS by charging a premium for deals. However, there is no guarantee a miner will make the deal data available over IPFS.
 
 ### Impact
 
 The PoC needs to be presented to interested stakeholders for feedback. Regrettably this has not happened yet.
 
-Metrics from the demo video show that it has received significantly more views than other video content on the Filecoin channel. This may suggest strong community interest in this capability.
+The proposal and this work has inspired exploration into other avenues https://github.com/protocol/web3-dev-team/pull/57.
+
+Metrics from the demo video show that it has received significantly more views than other video content on the Filecoin channel. This suggests strong community interest in this capability.
 
 <img src="https://raw.githubusercontent.com/protocol/the-spark/main/projects/2021/free-retrieval-via-ipfs/demo-video-impact.png"/>
 
 ### Summary of Future Work
 
-If the PoC is to be taken forward, the following work would need to be realized:
+If the PoC is taken forward, the following work would need to be completed:
 
 * Add event for when retrieval asks change so that data can be exposed/un-exposed as necessary.
 * Handle deal expiry/renewal. Expired deals should be un-exposed to IPFS. Renewed deals should remain.
 * Add configuration option to allow retrieval via IPFS.
     * Verify assumption that this capability is desired to be configurable.
-* Consider discover options. The miner's peer ID and deal data CID's could be provided on the IPFS DHT.
+
+The following additions may be desirable:
+
+* Consider discovery options. The miner's peer ID and deal data CIDs could be provided on the IPFS DHT.
+* Avoid duplication and expose the unsealed data to IPFS.
+* Add retrieval via IPFS as a deal option 
