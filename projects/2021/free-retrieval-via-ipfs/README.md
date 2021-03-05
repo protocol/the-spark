@@ -50,5 +50,3 @@ If the PoC is to be taken forward, the following work would need to be realized:
 * Handle deal expiry/renewal. Expired deals should be un-exposed to IPFS. Renewed deals should remain.
 * Add configuration option to allow retrieval via IPFS.
     * Verify assumption that this capability is desired to be configurable.
-
-The proposal intentionally focused on the free retrieval case in order to avoid tackling payment problems 
