@@ -52,3 +52,4 @@ If the PoC is to be taken forward, the following work would need to be realized:
 * Handle deal expiry/renewal. Expired deals should be un-exposed to IPFS. Renewed deals should remain.
 * Add configuration option to allow retrieval via IPFS.
     * Verify assumption that this capability is desired to be configurable.
+* Consider discover options. The miner's peer ID and deal data CID's could be provided on the IPFS DHT.
