@@ -42,6 +42,8 @@ The PoC needs to be presented to interested stakeholders for feedback. Regrettab
 
 Metrics from the demo video show that it has received significantly more views than other video content on the Filecoin channel. This may suggest strong community interest in this capability.
 
+<img src="https://raw.githubusercontent.com/protocol/the-spark/main/projects/2021/free-retrieval-via-ipfs/demo-video-impact.png"/>
+
 ### Summary of Future Work
 
 If the PoC is to be taken forward, the following work would need to be realized:
