@@ -24,3 +24,7 @@ Most w3dt demos will appear on the Tech Demos playlists:
 * [FIL Demos](https://youtube.com/playlist?list=PL_0VrY55uV1_NtdimsD2mncnL6__b1x6T)
 * [IPFS Demos](https://www.youtube.com/playlist?list=PLuhRWgmPaHtRRtDPxOcE9cR2yDqvqLdCr)
 * [PL Demos](https://youtube.com/playlist?list=PLhuBigpl7lqs6QcAuIvCJ9-SIa8G9yujJ)
+
+## Projects
+
+We record information about the projects we've completed in the [Projects Index](https://github.com/protocol/the-spark/tree/main/projects).
