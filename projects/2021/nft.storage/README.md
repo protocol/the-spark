@@ -6,6 +6,10 @@ Work Plan: https://hackmd.io/W1fRyIvbTI6yqqP11CL6_Q
 
 Website Content Plan: https://hackmd.io/d-AoemZJTA2BktWBJKduqA
 
+Diagrams: https://docs.google.com/presentation/d/1tDtoLUeFoHK_Ft-RCm269KoqVqLPPKIFaK2Y3hO7vcg/edit#slide=id.p
+
+Code: https://github.com/ipfs-shipyard/nft.storage
+
 ## Summary
 
 `nft.storage` is a single page website and service for storing NFT data on IPFS, backed by Filecoin.
