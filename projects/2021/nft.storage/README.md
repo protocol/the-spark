@@ -8,6 +8,8 @@ Website Content Plan: https://hackmd.io/d-AoemZJTA2BktWBJKduqA
 
 Diagrams: https://docs.google.com/presentation/d/1tDtoLUeFoHK_Ft-RCm269KoqVqLPPKIFaK2Y3hO7vcg/edit#slide=id.p
 
+Design: https://www.figma.com/file/mxRXqlzGd4MovE85euZtu8/NFT-STORAGE?node-id=0%3A1
+
 Code: https://github.com/ipfs-shipyard/nft.storage
 
 ## Summary
