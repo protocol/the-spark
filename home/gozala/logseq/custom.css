@@ -1,0 +1,15 @@
+a.navigation {
+  opacity: 0.8;
+}
+
+.white-theme,
+html[data-theme="light"] {
+  --ls-icon-color: #333;
+  background: #bee4fd;
+  --selection-background: #999;
+}
+
+.white-theme ::selection,
+html[data-theme="light"] ::selection {
+  background-color: var(--selection-background);
+}
