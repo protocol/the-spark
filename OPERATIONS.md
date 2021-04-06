@@ -76,6 +76,8 @@ Stages key:
 
 ### Current Projects
 
+Planning for the projects we're actively working on.
+
 #### Project Name (stage) (@champion)
 
 **Goals:**
@@ -88,6 +90,8 @@ Stages key:
 - Task0
 
 ### Pitches
+
+Projects we're writing up or have written that we may work on in the future.
 
 * Project Name (stage) (@champion)
 * ...
