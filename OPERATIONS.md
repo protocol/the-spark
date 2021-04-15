@@ -16,9 +16,13 @@ Every week we do the following:
 
 ### Demo time
 
-We have a public 30 minute recorded "demo time" **every Friday @ 16:30 UTC (08:30 PT)**. Recorded demos are published on YouTube and [slate](https://slate.host) ([hopefully](https://github.com/filecoin-project/slate/issues/527)).
+We attend a private w3dt "demo time" **every Friday @ 17:00 UTC (09:00 PT)** ([Sign up form](https://docs.google.com/document/d/1U8QQXoniCjZzZo6i_H32Lc8ziuE5BL2V_58nc-T-Cc4)). Most recorded demos are published to [slate](https://slate.host/alanshaw/the-spark-demos) and YouTube:
 
-Demos should be around 5 minutes.
+* [FIL Demos](https://youtube.com/playlist?list=PL_0VrY55uV1_NtdimsD2mncnL6__b1x6T)
+* [IPFS Demos](https://www.youtube.com/playlist?list=PLuhRWgmPaHtRRtDPxOcE9cR2yDqvqLdCr)
+* [PL Demos](https://youtube.com/playlist?list=PLhuBigpl7lqs6QcAuIvCJ9-SIa8G9yujJ)
+
+Demos should be 5-10 minutes.
 
 > This enables full focus on Tue/Wed/Thurs, hopefully yielding something to show by Friday.
 
@@ -42,6 +46,15 @@ Meeting notes template:
 ```markdown
 # The Spark Planning YYYY-MM-DD
 
+## Agenda
+
+1. Async updates: participants broadcast their own async update and answer any questions.
+2. Current projects: review and assign tasks for the next week.
+3. Project pitches: review status and next steps if there are changes.
+4. Open discussion for any other questions that arise.
+
+## Async Updates
+
 @name
 - 🚢 Shipped:
     - Ship0
@@ -59,11 +72,29 @@ Stages key:
 3. 🚜 In Progress (Working on project)
 4. 🤝 Handover/feedback (Submitted back to customer)
 5. ✨ Complete
+6. 💾 Paused and saved for another day
 
-### Project Name (stage) (@champion)
+### Current Projects
+
+Planning for the projects we're actively working on.
+
+#### Project Name (stage) (@champion)
+
+**Goals:**
+
+* Goal0
+
+**Tasks:**
 
 @name
-- NextStep0
+- Task0
+
+### Pitches
+
+Projects we're writing up or have written that we may work on in the future.
+
+* Project Name (stage) (@champion)
+* ...
 
 ## Notes/Questions
 
