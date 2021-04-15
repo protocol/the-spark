@@ -3,6 +3,9 @@ title: Charting a path through the project proposals
 ---
 
 ## Submitted Proposals
+:PROPERTIES:
+:id: 605a84ed-e673-42b2-a4aa-3bd4f7193cf3
+:END:
 ### [[Active connection management]] _[Proposal #81](https://github.com/protocol/web3-dev-team/pull/81)_
 ### [[Web IPFS nodes ability to connect (out of the box)]] _ [Proposal #70](https://github.com/protocol/web3-dev-team/pull/70)_
 ### [[Rendezvous implementation and deployment]] [Proposal #67](https://github.com/protocol/web3-dev-team/pull/67)
