@@ -10,7 +10,9 @@ Welcome to the organizational repo for w3dt The Spark.
 * [Irakli](https://github.com/Gozala)
 * [Jonathan](https://github.com/jnthnvctr)
 * [Mikeal](https://github.com/mikeal)
+* [Oli](https://github.com/olizilla)
 * [Peter](https://github.com/ribasushi)
+* [Vasco](https://github.com/vasco-santos)
 
 See [OPERATIONS.md](https://github.com/protocol/the-spark/blob/main/OPERATIONS.md) for our day to day working arrangements.
 
