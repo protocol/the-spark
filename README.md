@@ -8,6 +8,7 @@ Welcome to the organizational repo for w3dt The Spark.
 * [Alan](https://github.com/alanshaw)
 * [Hugo](https://github.com/hugomrdias)
 * [Irakli](https://github.com/Gozala)
+* [Joao](https://github.com/jdiogopeixoto)
 * [Jonathan](https://github.com/jnthnvctr)
 * [Mikeal](https://github.com/mikeal)
 * [Oli](https://github.com/olizilla)
