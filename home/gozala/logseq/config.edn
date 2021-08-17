@@ -75,4 +75,5 @@
  ;; input "{{{poem(red,blue)}}}"
  ;; becomes
  ;; Rose is red, violet's blue. Life's ordered: Org assists you.
- :macros {}}
+ :macros {}
+ :editor/logical-outdenting? true}

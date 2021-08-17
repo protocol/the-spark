@@ -1,0 +1,1 @@
+- See https://github.com/ipfs-shipyard/nft.storage/issues/316
