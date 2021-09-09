@@ -1,0 +1,6 @@
+- Requirements
+	- as markdown file
+	- contracts expose CID
+	- events are just notifications, need to read CID from a method
+	- contract can define it's own rules about updating CID
+	- write API is not defined

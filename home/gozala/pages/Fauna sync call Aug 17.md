@@ -21,7 +21,18 @@
 		- Andrew is hitting this with web3.storage
 - **What are we getting from fauna** that we may loose with postgres ?
 ## Action List
-- @gozala will attempt to reduce batch size to see if it can serve us as bandaid and unblock niftysave
-- If reduces batch size is still not working @gozala will implement [[fauna recommendation for task handling]]
-- @gozala will talk with trigram about fauna to get a sense if trying postgres might help us with stats and other tasks we're trying to handoff
+- DONE @gozala will attempt to reduce batch size to see if it can serve us as bandaid and unblock niftysave
+  done:: 1629224928229
+  now:: 1629224927245
+  later:: 1629224926524
+  id:: 611becac-75c9-4724-b25f-4425a45b4767
+	- Attempt to get even a single document from index seems to timeout now
+	- ![Screen Shot 2021-08-17 at 11.00.23 AM.png](../assets/Screen_20Shot_202021-08-17_20at_2011.00.23_20AM_1629224948562_0.png)
+- NOW If reduces batch size is still not working @gozala will implement [[fauna recommendation for task handling]]
+  later:: 1629222113020
+  id:: 611becac-3896-47d4-b03f-499d6da3608d
+  now:: 1629225008872
+- LATER @gozala will talk with trigram about fauna to get a sense if trying postgres might help us with stats and other tasks we're trying to handoff
+  later:: 1629222119171
+  id:: 611bf189-1d4e-4ed8-997a-1370c6531c6c
 - @hugomrdias will continue migration efforts to fauna
